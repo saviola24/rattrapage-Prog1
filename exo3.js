@@ -1,4 +1,5 @@
-import { Echanger, NombreUn } from './exo2.js';
+import { Echanger } from './exo2.js';
+import { NombreUn } from './exo2.js';
 
 export function triLignes(matrice) {
 	for (let position = 0; position < matrice.length - 1; position++) {

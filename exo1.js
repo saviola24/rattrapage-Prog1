@@ -1,5 +1,4 @@
-
-function NegatifPositif(tableau) {
+export function NegatifPositif(tableau) {
   let gauche = 0;
   let droite = tableau.length - 1;
 
@@ -9,7 +8,6 @@ function NegatifPositif(tableau) {
     }
 
     while (gauche < droite && tableau[droite] > 0) {
-      droite--;
     }
 
     if (gauche < droite) {
@@ -21,3 +19,5 @@ function NegatifPositif(tableau) {
 
   return tableau;
 }
+console.log(NegatifPositif([-1, 2, -3, 4, -5])); // [-1, -3, -5, 4, 2]
+console.log(NegatifPositif([1, -2, 3, -4, 5])); // [-2, -4, 3, 1, 5]    
