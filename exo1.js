@@ -19,5 +19,5 @@ export function NegatifPositif(tableau) {
 
   return tableau;
 }
-console.log(NegatifPositif([-1, 2, -3, 4, -5])); // [-1, -3, -5, 4, 2]
-console.log(NegatifPositif([1, -2, 3, -4, 5])); // [-2, -4, 3, 1, 5]    
+console.log(NegatifPositif([-1, 2, -3, 4, -5]));
+console.log(NegatifPositif([1, -2, 3, -4, 5]));   

@@ -18,4 +18,4 @@ export function triLignes(matrice) {
 
 	return matrice;
 }
-console.log(triLignes([[1, 0, 2], [0, 0, 3], [1, 1, 1]])); // [[0, 0, 3], [1, 0, 2], [1, 1, 1]]
+console.log(triLignes([[1, 0, 2], [0, 0, 3], [1, 1, 1]]));

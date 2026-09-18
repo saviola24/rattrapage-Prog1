@@ -6,7 +6,7 @@ export function Echanger(tableau, indice1, indice2) {
 
 	return tableau;
 }
-console.log(Echanger([1, 2, 3, 4], 1, 3)); // [1, 4, 3, 2]
+console.log(Echanger([1, 2, 3, 4], 1, 3)); 
 
 export function Ranger(tableau) {
 	let positionZero = 0;
@@ -20,7 +20,7 @@ export function Ranger(tableau) {
 
 	return tableau;
 }
-console.log(Ranger([1, 0, 2, 0, 3])); // [0, 0, 2, 1, 3]
+console.log(Ranger([1, 0, 2, 0, 3]));
 
 export function NombreUn(tableau) {
 	let nombre = 0;
@@ -33,4 +33,4 @@ export function NombreUn(tableau) {
 
 	return nombre;
 }
-console.log(NombreUn([1, 0, 2, 0, 3])); // 1
+console.log(NombreUn([1, 0, 2, 0, 3]));
